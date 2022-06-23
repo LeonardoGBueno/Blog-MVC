@@ -1,0 +1,16 @@
+{
+    "name": "LeonardoGBueno/blog-mvc",
+    "description": "Teste Back",
+    "require": {
+        "twig/twig": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        },
+        "files": [
+            "App/Config/config.php",
+            "App/Function/function.php"
+        ]
+    }
+}
